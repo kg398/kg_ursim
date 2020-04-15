@@ -17,10 +17,12 @@ python 3.5 or greater + pkgs: numpy, pyserial
 ## configuring coppeliaSim
 load kg_ursim/ur5_scene.ttt
 
-remoteApi files are already included
+remoteApi files are already included, interface is handled by kg_robot_sim.py, for more detail see: https://www.coppeliarobotics.com/helpFiles/en/remoteApiFunctionsPython.htm
 
 ## configuring ursim
 copy contents of /kg_ursim/ursim to ../ursim-3.12.1.90940/programs (or your ursim intall equivalent)
+
+interface is based off generic_ur5_controller, more detail here: https://github.com/kg398/Generic_ur5_controller 
 
 ## getting started
 -start coppeliaSim and ursim
