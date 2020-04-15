@@ -9,7 +9,7 @@ URsim - https://www.universal-robots.com/download/?option=66363&alttemplate=Supp
 python 3.5 or greater + pkgs: numpy, pyserial
 
 ## configuring coppeliaSim
-open ur5.ttt from this project
+load kg_ursim/ur5_scene.ttt
 remoteApi files are already included
 
 ## configuring ursim
