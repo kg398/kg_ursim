@@ -2,6 +2,8 @@
 
 initial project for simulating ur5
 
+example: https://drive.google.com/open?id=1hSW8s-fuYBwcZ_t0auBvHnfCvmeZanHb
+
 requirements:
 
 ubuntu 16
